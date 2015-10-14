@@ -14,7 +14,7 @@ public class AndroidSaveState extends Application
     public AndroidSaveState()
     {
         this.userName = "default";
-        this.isTired = fasle;
+        this.isTired = false;
         this.age = -0;
     }
 
