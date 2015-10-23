@@ -39,7 +39,8 @@ public class BackPageActivity extends AppCompatActivity
 
     private void setupListeners()
     {
-        backButton.setOnClickListener(new View.OnClickListener() {
+        backButton.setOnClickListener(new View.OnClickListener()
+        {
             public void onClick(View buttonView)
             {
                 Intent returnIntent = new Intent();
